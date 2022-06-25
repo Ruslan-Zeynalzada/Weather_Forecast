@@ -66,7 +66,7 @@ Temp9am = st.sidebar.slider("Please choose input for Temp9am variable" , min_val
 Temp3pm = st.sidebar.slider("Please choose input for Temp3pm variable" , min_value = -5.4 , max_value = 46.7 , step = 0.1)
 st.sidebar.markdown("0 - No : 1 - Yes")
 RainToday = st.sidebar.selectbox("Please choose input for RainToday variable" , options = [0,1] , index = 0)
-Year = st.sidebar.slider("Please choose input for Year variable" , min_value = 2007 , max_value = 2017 , step = 1)
+Year = st.sidebar.slider("Please choose input for Year variable" , min_value = 2007 , max_value = 2022 , step = 1)
 Month = st.sidebar.slider("Please choose input for Month variable" , min_value = 1 , max_value = 12 , step = 1)
 Day = st.sidebar.slider("Please choose input for Day variable" , min_value = 1 , max_value = 31 , step = 1)
 
